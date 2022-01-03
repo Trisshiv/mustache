@@ -1,0 +1,31 @@
+h3 {
+    font-size: 25px !important;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    25% {box-shadow: 1px 1px 38px orange;}
+    50% {box-shadow: 1px 1px 38px red;}
+    75% {box-shadow: 1px 1px 38px rgb(94, 0, 0) ;}
+    100% {box-shadow: 1px 1px 38px white;}
+}
+
+body {
+    background-image: url("mustache_pro.jpg");
+    background-size: contain;
+    background-position: center;
+}
+
+#head {
+    background-color: rgb(167, 44, 44) !important;
+}
+
+#snap {
+    background-color: green;
+    color: white;
+}
